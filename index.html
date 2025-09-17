@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind for styling -->
+
+    <style>
+        #verical {
+            position: absolute;
+            animation: 10s infinite linear vericall;
+        }
+
+        @keyframes vericall {
+
+            0% {
+                top: 0%;
+            }
+
+            100% {
+                top: -50%;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
@@ -530,8 +549,7 @@
         </div>
         <div class="my-5 ">
 
-            <div
-                class="flex flex-wrap gap-20 lg:gap-6 mx-auto items-center justify-center">
+            <div class="flex flex-wrap gap-20 lg:gap-6 mx-auto items-center justify-center">
                 <div class="max-w-[320px] relative cursor-pointer ">
 
 
@@ -801,22 +819,24 @@
         </div>
     </div>
 
+    <div class="bg-gray-50 p-2"> 
+        <div class="w-7/12 grid lg:grid-cols-2 mx-auto py-3">
+            <div class="align-middle my-auto px-16">
+                <h3 class="font-bold text-2xl">Join the 50,00,000+ business using Razorpay</h3>
+                <p> We make it easier for you focus on building great products while we work on
+                    simpling your payments. Become one of us by joining thousands of our happy users justify-around
+                    Simplify the online payments experience for your customers.
+                    <br><br>
+                    Focus on your business while we handle the complexities of payments for you
+                </p>
+                <button class="bg-blue-600 text-white p-3"> Get Started</button>
+            </div>
+            <div class="h-[400px] w-[500px] slider-vertical overflow-hidden relative">
+                <img class="object-cover" id="verical" width="500px" height="100%" src="images/comanies-f772fc25.png">
+            </div>
+        </div>
+    </div>
 
-    <!-- <div class="w-7/12 grid lg:grid-cols-2 mx-auto ">
-        <div class="">
-            <h3>Join the 50,00,000+ business using Razorpay</h3>
-            <p> We make it easier for you focus on building great products while we work on
-                simpling your payments. Become one of us by joining thousands of our happy users justify-around
-                Simplify the online payments experience for your customers.
-                <br><br>
-                Focus on your business while we handle the complexities of payments for you
-            </p>
-            <button class="bg-blue-600 text-white p-3"> Get Started</button>
-        </div>
-        <div class="">
-            <img class="" src="images/comanies-f772fc25.png">
-        </div>
-    </div> -->
 
 
 
